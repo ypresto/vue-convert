@@ -1,0 +1,47 @@
+{
+  "name": "vue-convert",
+  "version": "0.1.1",
+  "description": "Convert Vue components into TypeScript-friendly style.",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "format": "prettier --write 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "vue-convert": "dist/cli.js"
+  },
+  "keywords": [
+    "vue",
+    "typescript"
+  ],
+  "author": "Yuya Tanaka <yuya.presto@gmail.com> (https://github.com/ypresto)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypresto/vue-convert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ypresto/vue-convert/issues"
+  },
+  "homepage": "https://github.com/ypresto/vue-convert",
+  "dependencies": {
+    "@babel/parser": "^7.0.0-rc.3",
+    "@babel/types": "^7.0.0",
+    "@vue/component-compiler-utils": "^2.2.0",
+    "fs-readdir-recursive": "^1.1.0",
+    "lodash.flatmap": "^4.5.0",
+    "meow": "^5.0.0",
+    "recast": "^0.15.3"
+  },
+  "devDependencies": {
+    "@types/babel__parser": "^7.0.0",
+    "@types/esprima": "^4.0.2",
+    "@types/fs-readdir-recursive": "^1.0.0",
+    "@types/lodash.flatmap": "^4.5.4",
+    "@types/meow": "^4.0.1",
+    "@types/node": "^10.9.1",
+    "prettier": "^1.14.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}
