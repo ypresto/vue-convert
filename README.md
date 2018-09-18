@@ -2,6 +2,10 @@
 
 > Convert Vue components into TypeScript-friendly style.
 
+[![npm](https://img.shields.io/npm/v/vue-convert.svg)](https://www.npmjs.com/package/vue-convert)
+
+NOTE: Still in alpha stage.
+
 ## Installation
 
     npm i -g vue-convert
